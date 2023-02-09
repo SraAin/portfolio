@@ -13,11 +13,6 @@
 -------------------------------------------------------------------*/
 
 @import url(css/animate.css);
-@import url(css/camera.css);
-@import url(css/flaticon.css);
-@import url(css/prettyPhoto.css);
-@import url(css/owl.carousel.css);
-@import url(css/font-awesome.min.css);
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 /*------------------------------------------------------------------
@@ -997,82 +992,6 @@ xclip
     text-align: center;
     background-color: #f4f4f4;
 }
-
-
-/*------------------------------------------------------------------
-    ICON BOXES
--------------------------------------------------------------------*/
-
-.icon-wrapper {
-    position: relative;
-    cursor: pointer;
-    display: block;
-    z-index: 1;
-}
-
-.icon-wrapper i {
-    width: 75px;
-    height: 75px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 28px;
-    background-color: #f2f3f5;
-    color: #1f1f1f;
-    margin-top: 0;
-}
-
-.small-icons.icon-wrapper:hover i,
-.small-icons.icon-wrapper:hover i:hover,
-.small-icons.icon-wrapper i {
-    width: auto !important;
-    height: auto !important;
-    line-height: 1 !important;
-    padding: 0 !important;
-    color: #e3e3e3 !important;
-    background-color: transparent !important;
-    background: none !important;
-    margin-right: 10px !important;
-    vertical-align: middle;
-    font-size: 24px !important;
-}
-
-.small-icons.icon-wrapper h3 {
-    font-size: 18px;
-    padding-bottom: 5px;
-}
-
-.small-icons.icon-wrapper p {
-    padding: 0;
-    margin: 0;
-}
-
-.icon-wrapper h3 {
-    font-size: 21px;
-    padding: 0 0 15px;
-    margin: 0;
-}
-
-.icon-wrapper p {
-    margin-bottom: 0;
-    padding-left: 95px;
-}
-
-.icon-wrapper p small {
-    display: block;
-    color: #999;
-    margin-top: 10px;
-    text-transform: none;
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.icon-wrapper p small:after {
-    content: "\f105";
-    font-family: FontAwesome;
-    margin-left: 5px;
-    font-size: 11px;
-}
-
 
 /*------------------------------------------------------------------
     MESSAGE BOXES
